@@ -4,9 +4,11 @@
 
 body {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  /* padding-bottom: 3rem; */
   color: #5a5a5a;
 }
+
+
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -14,10 +16,12 @@ body {
 
 /* Carousel base class */
 .carousel {
+  height: inherit;
   margin-bottom: 4rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
+  height: inherit;
   bottom: 3rem;
   z-index: 10;
 }
@@ -34,6 +38,11 @@ body {
   height: 32rem;
   width: 100%;     
 }
+
+/* Second Carosel */
+
+
+
 
 
 /* MARKETING CONTENT
@@ -52,17 +61,71 @@ body {
   margin-left: .75rem;
 }
 
-.marketing p {
-  text-align: center;
+.marketing  {
+  text-align: center ;
+}
+
+
+.marketing img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto ;
+  width:50%;
+}
+.inline  {
+  display: inline;
+}
+
+.h3_montserrat {
+  font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-size: 28pt;
+}
+.h4_montserrat {
+  font-family: 'Montserrat', sans-serif;
+font-weight: 100;
+font-size: 28pt;
+}
+
+.description {
+  
+font-family: 'Italianno', sans-serif;
+font-weight: 100;
+font-size: 20pt;
 }
 
 /* Footer
 ----------*/
 
+.center{
+  text-align: center;
+}
+
 footer{ 
+  
   background-color: black;
 
 }
+
+footer a {
+  color: white;
+}
+
+footer h6  {
+  color : white;
+}
+
+.white {
+  color : white;
+}
+
+.pads {
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+
 
 /* Featurettes
 ------------------------- */
